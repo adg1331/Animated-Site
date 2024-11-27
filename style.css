@@ -51,7 +51,6 @@
    width: 100%;
    background-color: #000;
    color: #fff;
-   position: relative;
    padding-top: 23vh;
    overflow-x: hidden;
 }
@@ -87,11 +86,11 @@
 }
 
 #fullMenu {
-   height: 100vh;
+   height: 100%;
    width: 100%;
    background-color: #91929E;
    color: #000;
-   position: absolute;
+   position: fixed;
    top: 0;
    right: -100%;
    z-index: 999;
